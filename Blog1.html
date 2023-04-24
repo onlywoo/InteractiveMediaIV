@@ -8,10 +8,20 @@
     <link rel="stylesheet" href="CSS/Normalize.css" />
     <link rel="stylesheet" href="CSS/blogPage.css" />
   </head>
-  <body>
-    <div class="art">
+  <body>    
+    <div class="button">
+      <input type="button" value="Hide text" 
+      onclick="document.getElementById('p1').style.visibility='hidden'">
+  
+      <input type="button" value="Show text"
+      onclick="document.getElementById('p1').style.visibility='visible'">
+    </div> 
+    <div class="art"> 
+
+
         <h1>Theory</h1>
       </div>
+
       <main>
         <div>
         <div class="section-nav">
@@ -48,10 +58,11 @@
         </div>
       </main>
 
-    
-      <div class="blog">
+
+      <div class="blog" >
         <h1>Dev Blog week 3</h1>
-    <p>
+        <div id = "p1">
+    <p >
       <span
         >The revision videos are long however I appreciate them a lot because I
         need to be able to go back and forward to fully grasp what I am
@@ -104,6 +115,7 @@
         http://hyperallergic.com/211950/an-addictive-experiment-in-annotating-footage-from-a-london-street/
         (accessed 3.12.23).</span>
     </p>
+  </div>
 </div>
   </body>
   <footer></footer>

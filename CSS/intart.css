@@ -5,9 +5,93 @@ body {
     margin-bottom: -10%;
 }
 
-.art {
+* {
+    box-sizing: border-box;
+}
+
+
+h1 {
+    margin-top: 0;
+    font-size: 22px;
+}
+
+h2 {
+    margin-top: 0;
+    font-size: 20px;
+}
+
+h3 {
+    margin-top: 0;
+    font-size: 18px;
+}
+
+h4 {
+    margin-top: 0;
+    font-size: 16px;
+}
+
+h5 {
+    margin-top: 0;
+    font-size: 14px;
+}
+
+h6 {
+    margin-top: 0;
+    font-size: 12px;
+}
+
+code {
+    font-size: 1.2em;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+.square {
+    background: #fff;
+    border: 1px solid #999;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 50px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 50px;
+}
+
+.board-row:after {
+    clear: both;
+    content: '';
+    display: table;
+}
+
+.status {
+    margin-bottom: 10px;
+}
+
+.game {
+    display: flex;
+    flex-direction: row;
+    margin-left: 50%;
+    margin-top: -30%;
+}
+
+.game-info {
+    margin-left: 20px;
+}
+
+.art h1 {
     font-family: "Times New Roman", Times, serif;
-    font-size: 3ch;
+    font-size: 5ch;
     margin-top: 10%;
     margin-left: 20%;
 
@@ -32,7 +116,7 @@ main>.section-nav {
     padding-left: 0;
     border-left: 1px solid black;
     margin-left: 0%;
-    margin-top: 10%;
+    margin-top: -0%;
 }
 
 .section-nav a {
@@ -110,6 +194,12 @@ h1 {
     margin-top: -5%;
 }
 
+.restart {
+
+    margin-left: 40%;
+    margin-top: -24.1%;
+}
+
 .blog {
     font-size: 2.5ch;
     line-height: 1.6;
@@ -119,23 +209,11 @@ h1 {
     padding: 5%;
     margin-left: 30%;
     margin-right: 15%;
-    margin-top: -40%;
+    margin-top: -20%;
     margin-bottom: 10%;
 }
 
 footer {
     margin-top: 50%;
     margin-bottom: 50%;
-}
-
-.button {
-    color: #000000;
-    background-color: #223843;
-    display: inline-block;
-    padding: 1%;
-    border-radius: 30px 30px 30px;
-    margin-left: 19%;
-    margin-top: 3%;
-    margin-right: 68%;
-    margin-bottom: -5%;
 }
