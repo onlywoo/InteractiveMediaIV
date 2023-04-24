@@ -1,8 +1,16 @@
 body {
     display: grid;
-    height: 200ch;
+    height: 210ch;
     background-image: linear-gradient(180deg, #d8b4a0, #D5BDAF, #F5EBE0, #E3D5CA);
     margin-bottom: -10%;
+}
+
+.art {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 3ch;
+    margin-top: 10%;
+    margin-left: 20%;
+
 }
 
 /* 2. Make nav sticky */
@@ -24,7 +32,7 @@ main>.section-nav {
     padding-left: 0;
     border-left: 1px solid black;
     margin-left: 0%;
-    margin-top: 19%;
+    margin-top: 10%;
 }
 
 .section-nav a {
@@ -99,8 +107,7 @@ section {
 }
 
 h1 {
-    margin-top: -33%;
-    margin-left: 27%;
+    margin-top: -5%;
 }
 
 .blog {
@@ -110,13 +117,13 @@ h1 {
     color: white;
     border-radius: 5px 50px 30px;
     padding: 5%;
-    margin-left: 25%;
-    margin-right: 20%;
-    margin-top: -25%;
-    margin-bottom: 70%;
+    margin-left: 30%;
+    margin-right: 15%;
+    margin-top: -40%;
+    margin-bottom: 10%;
 }
 
 footer {
-    margin-top: 5000%;
+    margin-top: 50%;
     margin-bottom: 50%;
 }
